@@ -44,6 +44,8 @@ input {
 	right: 5px;
 	border: none;
 	border-bottom: 1px solid grey;
+	font-family: cursive;
+	height: 30px;
 }
 
 .postcard-footer {
@@ -57,7 +59,12 @@ button {
 	font-family: cursive;
 	cursor: pointer;
 	border: none;
+	position: relative;
+	bottom: 10px;
 }
 button:hover {
-	background-color: rgb(112, 112, 112);
+	background-color: rgb(139, 139, 139);
+}
+button:active {
+	background-color: rgb(182, 181, 181);
 }
